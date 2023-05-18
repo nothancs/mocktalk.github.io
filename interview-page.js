@@ -22,7 +22,7 @@ function startRecording()
        result.value = transcript; // assign transcript to textbox-answer.value
      };
  
-     recognition.speechend = () => // update values when speech recognition stops picking up audio
+     recognition.onspeechend = () => // update values when speech recognition stops picking up audio
      {
        if (isRecording)
        {
