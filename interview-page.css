@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    /*outline: red dashed 1px; /* outline to see how borders are interacting, will delete later*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.textbox-question {
+    margin: 1em;
+    margin-bottom: 1em;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    outline: none;
+
+}
+
+.textbox-answer {
+    margin-bottom: 2em;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    resize: none;
+    outline: solid;
+    outline-color: rgb(255, 255, 255);
+    outline-width: 1px;
+
+}
+
+.bi-mic {
+    margin-top: 1em;
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+    border-color: rgba(128, 128, 128, 0);
+    border-style: solid;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+    
+}
+
+.bi-mic-mute {
+    margin-top: 1em;
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+    border-color: rgba(128, 128, 128, 0);
+    border-style: solid;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+     
+}
+
+.bi-mic:hover {
+    border-color: white;
+    transition: 0.3s;
+}
+
+.bi-mic-mute:hover {
+    border-color: white;
+    transition: 0.3s;
+}
+
